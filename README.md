@@ -32,4 +32,5 @@ ComfyUI/models/diffusers/Z-Image-Turbo
 
 
 ✅ Run:
-![zturbo](https://github.com/user-attachments/assets/c9dcc790-947f-44fd-9e2f-84139b6576cf)
+
+![zturbo2](https://github.com/user-attachments/assets/e27613aa-bad2-4c44-bb9a-21e5fc2618cb)
