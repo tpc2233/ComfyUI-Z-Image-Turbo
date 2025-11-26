@@ -21,7 +21,10 @@ https://github.com/tpc2233/ComfyUI-Z-Image-Turbo/blob/main/workflow.json
 ```
 
 ✅ Autodownload the models:
+
 It will download the models first time you run workflow
+
+It will be downloaded to:
 ComfyUI/models/diffusers/Z-Image-Turbo
 
 
