@@ -32,5 +32,6 @@ ComfyUI/models/diffusers/Z-Image-Turbo
 
 
 ✅ Run:
+24Gb VRAM usage on 2048x2048
+![zturbo3](https://github.com/user-attachments/assets/ec740aa0-67d9-452f-a45c-4bea427f90e8)
 
-![zturbo2](https://github.com/user-attachments/assets/e27613aa-bad2-4c44-bb9a-21e5fc2618cb)
