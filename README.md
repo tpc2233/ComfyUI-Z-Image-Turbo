@@ -15,8 +15,13 @@ pip install -r requirements.txt
 ```
 
 
-✅ Autodownload the models:
+✅ Comfy Workflow:
+```
+https://github.com/tpc2233/ComfyUI-Z-Image-Turbo/blob/main/workflow.json
+```
 
+✅ Autodownload the models:
+It will download the models first time you run workflow
 ComfyUI/models/diffusers/Z-Image-Turbo
 
 
