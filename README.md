@@ -11,6 +11,8 @@ cd custom_nodes
 git clone https://github.com/tpc2233/ComfyUI-Z-Image-Turbo.git
 
 cd ComfyUI-Z-Image-Turbo
+pip install modelscope
+pip install git+https://github.com/huggingface/diffusers
 pip install -r requirements.txt
 ```
 
