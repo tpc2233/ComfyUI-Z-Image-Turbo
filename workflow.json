@@ -1,40 +1,50 @@
 {
+  "id": "35bbb315-1532-4e85-90e9-8558e0de49fd",
+  "revision": 0,
   "last_node_id": 4,
   "last_link_id": 4,
   "nodes": [
     {
-      "id": 1,
-      "type": "ZImageLoader",
-      "pos": [100, 100],
-      "size": { "0": 300, "1": 200 },
+      "id": 3,
+      "type": "SaveImage",
+      "pos": [
+        1075.3275480687423,
+        94.66394418921217
+      ],
+      "size": [
+        300,
+        300
+      ],
       "flags": {},
-      "order": 0,
+      "order": 2,
       "mode": 0,
-      "inputs": [],
-      "outputs": [
+      "inputs": [
         {
-          "name": "pipe",
-          "type": "ZIMAGE_PIPE",
-          "links": [1],
-          "slot_index": 0
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2
         }
       ],
+      "outputs": [],
       "properties": {
-        "Node name for S&R": "ZImageLoader"
+        "cnr_id": "comfy-core",
+        "ver": "0.3.75"
       },
       "widgets_values": [
-        "Tongyi-MAI/Z-Image-Turbo",
-        "bf16",
-        false,
-        false,
-        "default"
+        "ComfyUI"
       ]
     },
     {
       "id": 2,
       "type": "ZImageSampler",
-      "pos": [450, 100],
-      "size": { "0": 400, "1": 300 },
+      "pos": [
+        447.7131189382337,
+        97.71311893823378
+      ],
+      "size": [
+        521.9669899608643,
+        501.6801088990982
+      ],
       "flags": {},
       "order": 1,
       "mode": 0,
@@ -49,8 +59,10 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [2],
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [
+            2
+          ]
         }
       ],
       "properties": {
@@ -58,40 +70,89 @@
       },
       "widgets_values": [
         "Young Chinese woman in red Hanfu, intricate embroidery. Impeccable makeup, red floral forehead pattern. Elaborate high bun, golden phoenix headdress, red flowers, beads. Holds round folding fan with lady, trees, bird. Neon lightning-bolt lamp (⚡️), bright yellow glow, above extended left palm. Soft-lit outdoor night background, silhouetted tiered pagoda (西安大雁塔), blurred colorful distant lights.",
-        1024,
-        1024,
+        2048,
+        2048,
         9,
-        42
+        0,
+        413825933875500,
+        "randomize",
+        "",
+        1,
+        512,
+        false,
+        1
       ]
     },
     {
-      "id": 3,
-      "type": "SaveImage",
-      "pos": [900, 100],
-      "size": { "0": 300, "1": 300 },
+      "id": 1,
+      "type": "ZImageLoader",
+      "pos": [
+        43.193874425727444,
+        96.06656457376216
+      ],
+      "size": [
+        300,
+        200
+      ],
       "flags": {},
-      "order": 2,
+      "order": 0,
       "mode": 0,
-      "inputs": [
+      "inputs": [],
+      "outputs": [
         {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 2
+          "name": "pipe",
+          "type": "ZIMAGE_PIPE",
+          "slot_index": 0,
+          "links": [
+            1
+          ]
         }
       ],
-      "outputs": [],
-      "properties": {},
+      "properties": {
+        "Node name for S&R": "ZImageLoader"
+      },
       "widgets_values": [
-        "ComfyUI"
+        "Tongyi-MAI/Z-Image-Turbo",
+        "bf16",
+        false,
+        "default"
       ]
     }
   ],
   "links": [
-    [1, 1, 0, 2, 0, "ZIMAGE_PIPE"],
-    [2, 2, 0, 3, 0, "IMAGE"]
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "ZIMAGE_PIPE"
+    ],
+    [
+      2,
+      2,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ]
   ],
   "groups": [],
   "config": {},
-  "extra": {},
+  "extra": {
+    "ds": {
+      "scale": 1.0841573199527748,
+      "offset": [
+        37.841225114853785,
+        185.91643355453454
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "frontendVersion": "1.32.9",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
   "version": 0.4
 }
