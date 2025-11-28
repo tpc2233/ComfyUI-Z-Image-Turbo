@@ -29,7 +29,7 @@ Documentation = "https://github.com/tpc2233/ComfyUI-Z-Image-Turbo/wiki"
 "Bug Tracker" = "https://github.com/tpc2233/ComfyUI-Z-Image-Turbo/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "tpc2233"
 DisplayName = "ComfyUI-Z-Image-Turbo"
 Icon = ""
 includes = [] 
