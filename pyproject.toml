@@ -20,7 +20,7 @@ license = {file = "LICENSE"}
 #     "Environment :: GPU :: Apple Metal",    # Apple Metal support
 # ]
 
-dependencies = ["transformers", "accelerate", "sentencepiece", "protobuf"]
+dependencies = ["modelscope", "transformers", "accelerate", "sentencepiece", "protobuf"]
 
 [project.urls]
 Repository = "https://github.com/tpc2233/ComfyUI-Z-Image-Turbo"
