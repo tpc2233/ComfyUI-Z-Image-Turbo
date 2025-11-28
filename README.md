@@ -5,7 +5,12 @@ Comfy UI nodes for Z-Image-Turbo to run native weights
 
 </div>
 
-✅ Install on Comfy:
+✅ Install on Comfy via Manager:
+![manger](https://github.com/user-attachments/assets/0cc3fe3d-14e8-4785-a2e3-b2328d86d0ea) 
+
+✅ Install on Comfy manually: 
+
+
 ```
 cd custom_nodes
 git clone https://github.com/tpc2233/ComfyUI-Z-Image-Turbo.git
